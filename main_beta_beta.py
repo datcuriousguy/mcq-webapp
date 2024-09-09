@@ -21,7 +21,7 @@ Notes:
 mysql_config = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'Hayabusa@2004',
+    'password': 'mypassword',  # hiding my password
     'database': 'mcq'
 }
 
