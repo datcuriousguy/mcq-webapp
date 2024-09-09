@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="mcq.css"> 
+</head>
+<body id='body_id'>
+    <div class="container" id='form_id'>
+        <form>
+            <label class="label" for="username_id">Username</label>
+            <div>
+                <input class="textbox" type="text" id="username_id" name="username" required>
+            </div>
+            <div>
+                <label class="label" for="password_id">Password</label>
+            </div>
+            <div>
+                <input class="textbox" type="password" id="password_id" name="password" required>
+            </div>
+            <button type="submit" class="button">Login</button>
+            <div id='result'></div>
+        </form>
+    </div>
+    <div>
+        <form class="config_widget" id='quiz_id' style="display: none;">
+            <!--<div class="config-widget">Configuration 1</div>
+            <div class="config-widget">Configuration 2</div>
+            <div class="config-widget">Configuration 3</div> --->
+        </form>
+        <div id='qdiv_id'></div>
+    </div>
+
+    <script src="mcq.js">
+        
+    </script>
+</body>
+</html>

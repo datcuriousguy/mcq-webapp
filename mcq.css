@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://wallpaperbat.com/img/174978-trees-landscape-ridge-hill-art-peaks-snow-mountains-sky-clouds.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-height: 100vh;
+    overflow-y: auto;
+    font-family: monospace;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding-top: 30px;
+    border-width: 0px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 30%;
+    text-align: center;
+    height: 45%;
+}
+.spaceDiv {
+    height: 1000px;
+    visibility: visible;
+}
+h1 {
+    font-family: monospace;
+    font-size: 55px;
+    color: rgba(255,255,255,0.9);
+    text-align: left;
+}
+.textbox {
+    font-size: 15px;
+    padding: 10px;
+    width: 80%;
+    margin: 30px;
+    font-family: monospace;
+    color: rgba(255, 255, 255, 0.8);
+    border-bottom-width: 0px;
+    border-radius: 10px;
+    border-width: 0px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255,0.5);
+}
+.button {
+    padding: 10px;
+    font-family: monospace;
+    margin: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-width: 0px;
+}
+.button:hover {
+    padding: 10px;
+    font-family: monospace;
+    margin: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-width: 0px;
+}
+.take_quiz_button_style {
+    padding: 1px;
+    font-family: monospace;
+    margin: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 100, 0, 0.5);
+    border-width: 0px;
+}
+.take_quiz_button_style:hover {
+    background-color: rgba(0, 200, 0, 0.8);
+}
+.label {
+    font-family: monospace;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.config-widget {
+    font-family: monospace;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    border-width: 0px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0px solid rgba(255, 255, 255, 0.3);
+    width: 50%;
+    text-align: left;
+    height: 70%;
+    cursor: pointer;
+}
+input[type="text"]:focus {
+    outline: none;
+}
+.question {
+    font-family: monospace;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    border-width: 0px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0px solid rgba(255, 255, 255, 0.3);
+    width: 50%;
+    text-align: left;
+    height: 70%;
+    cursor: pointer;
+}
+.config_button_style {
+    padding: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-width: 0px;
+    /* position: fixed; */
+}
+.config_button_style:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.logout_button {
+    padding: 10px;
+    font-family: monospace;
+    margin: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-width: 0px;
+    position: fixed;
+    margin-left: 400px;
+}
+.logout_button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.submit_button {
+    padding: 10px;
+    font-family: monospace;
+    margin: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-width: 0px;
+    position: fixed;
+    margin-left: 600px;
+}
+.submit_button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
