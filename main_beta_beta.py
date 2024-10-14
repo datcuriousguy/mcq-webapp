@@ -265,8 +265,8 @@ def check_user_password():
 model = SentenceTransformer('all-mpnet-base-v2')
 db_connection = mysql.connector.connect(
     host="localhost",
-    user="root",
-    password="Hayabusa@2004",  # Replace with your actual password
+    user="your-username",
+    password="your-password",  # Replace with your actual password
     database="mcq"
 )
 cur = db_connection.cursor()
